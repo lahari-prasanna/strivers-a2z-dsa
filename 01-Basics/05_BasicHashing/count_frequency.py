@@ -7,7 +7,7 @@ def count_frequency(arr):
     for num in arr:
         freq[num]=freq.get(num,0)+1
     result=[]
-    print(freq.items())
+    
     for key,value in freq.items():
         result.append([key,value])
     return result

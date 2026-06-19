@@ -4,6 +4,7 @@ def highest_occuring_element(arr):
     freq={}
     for num in arr:
         freq[num]=freq.get(num,0)+1
+        
     max_freq=max(freq.values())
     result=[]
     for key,value in freq.items():
